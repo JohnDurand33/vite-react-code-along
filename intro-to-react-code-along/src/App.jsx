@@ -1,13 +1,20 @@
-import React, { Component } from 'react'
+import Background from "./Background";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>
-            Hi
-        </h1>
-      </div>
-    )
-  }
+const App = () => {
+
+        return (
+            <div className="App">
+                <Navbar />
+                <Background
+                    imgUrl={
+                            "https://res.cloudinary.com/dkeozpkpv/image/upload/v1710865658/mall_uhzans.jpg"
+                            }/>
+                <Footer />
+            </div>
+        );
 }
+    
+export default App
+
