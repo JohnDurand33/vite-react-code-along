@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <Navbar expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">Johnstagram</Navbar.Brand>
+                <Navbar.Brand href="#home">ShopLife</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
