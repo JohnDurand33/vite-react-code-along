@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <footer className="text-center text-lg-start bg-dark text-muted">
+            <footer className="text-center text-lg-start bg-dark text-white">
                 {/* <!-- Section: Social media --> */}
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                     {/* <!-- Left --> */}
@@ -140,55 +140,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                {/* <!-- Section: Links  --> */}
-
-                {/* <!-- Section: Text --> */}
-                <section className="d-flex justify-content-center justify-content-lg-between p-4 border-top">
-                    {/* <!-- Left --> */}
-                    <div className="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
-                    </div>
-                    {/* <!-- Left -->
-
-        <!-- Right --> */}
-                    <div>
-                        <a href="" className="me-4 text-reset">
-                            <i className="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <i className="fab fa-google"></i>
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <i className="fab fa-instagram"></i>
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <i className="fab fa-linkedin"></i>
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <i className="fab fa-github"></i>
-                        </a>
-                    </div>
-                    {/* <!-- Right --> */}
-                </section>
-                {/* <!-- Section: Text -->
-
-    <!-- Section: Copyright --> */}
-                <div
-                    className="text-center p-4"
-                    style="background-color: rgba(0, 0, 0, 0.05)"
-                >
-                    © 2024 Copyright:
-                    <a
-                        className="text-reset fw-bold"
-                        href="https://mdbootstrap.com/"
-                    >
-                        MDBootstrap.com
-                    </a>
-                </div>
-                {/* <!-- Section: Copyright --> */}
             </footer>
         </div>
     )
