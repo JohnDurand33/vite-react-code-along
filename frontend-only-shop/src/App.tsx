@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from 'react'
 import Product from './Product'
-import {ProductProps} from './Product'
+import { ProductType } from './types'
 import './App.css'
 
-type ProductArray = ProductProps['product'][]
+type ProductArray = ProductType[]
 
 function App() {
 
@@ -32,7 +32,7 @@ function App() {
     useEffect(()=>{ getProducts() }, [])
 
     const showProducts =() => {
-        return products.map((p) => <Product key={p.id} product={p} />)
+        return products.map((p: ProductType) => <Product key={p.id} product={p} />)
     }
 
     return (
